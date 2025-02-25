@@ -11,13 +11,13 @@ git 'https://github.com/Vamshi0105/vamshi.git'
 stage('build')
 {
 steps{
-sh'javac hello.java'
+sh'javac helloworld.java'
 }
 }
 stage('run')
 {
 steps{
-sh 'hello.java'
+sh 'helloworld.java'
 }
 }
 }
